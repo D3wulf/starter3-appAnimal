@@ -14,7 +14,17 @@ public class AnimalController {
 @Autowired AnimalProperties ap;
 	
 	@GetMapping("/")
-	public String  getNombre() {
+	public String saludo() {
+		
+		
+		
+		
+		return "Animal Api";
+		
+		
+	}
+	@GetMapping("/raza")
+	public String  getRaza() {
 		
 		
 		
@@ -23,5 +33,7 @@ public class AnimalController {
 		
 		
 	}
+	
+	
 
 }
